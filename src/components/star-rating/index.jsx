@@ -15,7 +15,7 @@ export const StarRating = ({numberOfStars = 5}) => {
         setHover(getCurrentIndex)
     }
 
-    function handleMouthLeave(getCurrentIndex) {
+    function handleMouthLeave() {
         setHover(rating)
     }
 
@@ -29,8 +29,8 @@ export const StarRating = ({numberOfStars = 5}) => {
                         key={index}
                         onClick={() => handleClick(index)}
                         onMouseMove={() => handleMouthEnter(index)}
-                        onMouseLeave={() => handleMouthLeave(index)}
-                        className={`star ${index <= (hover || rating) ? "active" : ""}  `}
+                        onMouseLeave={() => handleMouthLeave()}
+                        className={`star ${index <= (hover || rating) ? "active" : "inactive"}  `}
                     />
                 })
             }

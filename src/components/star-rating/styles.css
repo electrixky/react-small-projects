@@ -6,8 +6,15 @@
     font-size: 50px;
     margin: 5px;
     cursor: pointer;
+    stroke-width: 15px;
 }
 
 .active {
-    color: #f1cb1e;
+    color: #fad902;
+    stroke: #f1cb1e;
+}
+
+.inactive {
+    fill: transparent;
+    stroke: #171717;
 }
