@@ -1,0 +1,13 @@
+.star-rating {
+    padding-top: 50px;
+}
+
+.star {
+    font-size: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.active {
+    color: #f1cb1e;
+}
