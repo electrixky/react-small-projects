@@ -20,6 +20,7 @@
     height: 2rem;
     color: #fff;
     filter: drop-shadow(0 0 5px #555);
+    cursor: pointer;
 }
 
 .arrow-left {
@@ -45,6 +46,14 @@
     outline: none;
     margin: 0 0.2rem;
     cursor: pointer;
+}
+
+.hide-current-image {
+    display: none;
+}
+
+.inactive-indicator {
+    background-color: grey;
 }
 
 
