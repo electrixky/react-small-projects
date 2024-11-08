@@ -37,7 +37,7 @@ export default function RandomColor() {
             handleCreateRandomHexColor()
     }, [typeOfColor]);
 
-    return <div className="container" style={{background: color}}>
+    return <div className="random-color-container" style={{background: color}}>
         <button className="btn" onClick={() => handleCreateRandomHexColor()}>Create HEX Color
         </button>
         <button className="btn" onClick={() => handleCreateRandomRgbColor()}>Generate RGB Color
