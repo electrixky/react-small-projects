@@ -1,7 +1,7 @@
 import MenuItem from "./menu-item";
 
 export default function MenuList({list = []}) {
-    return <div className="menu-list-container">
+    return <ul className="menu-list-container">
         {
             list && list.length
                 ? list.map(item=>{
@@ -9,5 +9,5 @@ export default function MenuList({list = []}) {
                 })
                 : null
         }
-    </div>
+    </ul>
 }
