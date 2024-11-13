@@ -1,0 +1,26 @@
+.qr-input-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0 30px;
+
+}
+
+.qr-input-container button {
+    all: unset;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #d2d2d2;
+    }
+}
+
+.qr-input-container input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
